@@ -1,0 +1,13 @@
+# Definição da pilha, começando com Z (Z é o símbolo inicial da pilha)
+Pilha: Z
+
+# Definição do estado inicial
+Inicial: q0
+
+# Transições no formato: estado_atual, entrada, topo_pilha -> estado_destino, substituir_topo_pilha
+Transicao: q0, 0, Z -> q0, 0Z
+Transicao: q0, 1, Z -> q1, vazio
+Transicao: q0, 1, 0 -> q0, 10
+Transicao: q0, 0, 1 -> q0, vazio
+Transicao: q1, 1, 0 -> q1, vazio
+Transicao: q1, vazio, Z -> aceita
