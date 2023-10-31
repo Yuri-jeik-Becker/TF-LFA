@@ -1,6 +1,6 @@
 # TF-LFA
 ## Trabalho Final de LFA primeira etapa
-Esta primeira etapa do trabalho consiste em implementar um simulador de Autômatos com Pilha (pushdown automata)  
+Esta primeira etapa do trabalho consiste em implementar um simulador de Autômatos com Pilha (Pushdown Automata)  
 A linguagem escolhida foi Python e são utilizadas as bibliotecas Graphviz e Streamlit que podem ser instaladas pelo arquivo `requirements.txt`
 
 ## Executar
