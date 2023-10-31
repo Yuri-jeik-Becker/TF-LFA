@@ -6,7 +6,8 @@ A primeira etapa do trabalho consiste em implementar um simulador de Automatos c
 Para utilizar a ferramenta basta clonar o repositório na pasta desejada e utilizar o comando: `streamlit run stack.py`
 
 ## Utilização
-Alguns campos serão preenchidos pelo usuário:
+Com a interface aberta será utilizado `ε` como palavra ou transição vazia.
+Campos preenchidos pelo usuário:
 
 ### Estado inicial:
 Neste campo digitar o estado inicial
