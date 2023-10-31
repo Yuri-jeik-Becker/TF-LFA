@@ -1,9 +1,0 @@
-digraph {
-	q0 [shape=circle]
-	q1 [shape=circle]
-	q2 [shape=doublecircle]
-	q0 -> q0 [label="a, e -> X"]
-	q0 -> q1 [label="b, X -> e"]
-	q1 -> q1 [label="b, X -> e"]
-	q1 -> q2 [label="e, e -> e"]
-}
