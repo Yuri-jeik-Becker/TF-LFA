@@ -18,27 +18,27 @@ Neste campo digitar o estado inicial
 Exemplo: `Q0`
 
 ### Estados:
-Neste campo digitar todos os estados separados por vírgulas  
-Exemplo: `Q0, Q1, Q2`
+Neste campo digitar todos os estados separados por vírgulas sem espaços  
+Exemplo: `Q0,Q1,Q2`
 
 ### Estados de Aceitação:
-Neste campo digitar todos os estados de aceitação ou finais separados por vírgulas  
+Neste campo digitar todos os estados de aceitação ou finais separados por vírgulas sem espaços  
 Exemplo: `Q2`
 
 ### Alfabeto de Entrada:
-Neste campo digitar todos os símbolos do alfabeto de entrada da fita separados por vírgulas  
-Exemplo: `a, b, c`
+Neste campo digitar todos os símbolos do alfabeto de entrada da fita separados por vírgulas sem espaços  
+Exemplo: `a,b,c`
 
 ### Alfabeto da Pilha:
-Neste campo digitar todos os símbilos do alfabeto da pilha separados por vírgulas  
-Exemplo: `A, B, C`
+Neste campo digitar todos os símbilos do alfabeto da pilha separados por vírgulas sem espaços  
+Exemplo: `A,B,C`
 
 ### Transições:
-Neste campo digitar a tabela de transições sendo cada linha uma transição e seus elementos separados por vírgulas no formato `estado atual, símbolo de entrada, símbolo a ser desempilhado, estado atingido, símbolo a ser empilhado`  
+Neste campo digitar a tabela de transições sendo cada linha uma transição e seus elementos separados por vírgulas sem espaços no formato `estado atual,símbolo de entrada,símbolo a ser desempilhado,estado atingido,símbolo a ser empilhado`  
 Exemplo: 
 ```
-Q0, a, ε, Q1, A
-Q1, b, A, Q2, ε
+Q0,a,ε,Q1,A
+Q1,b,A,Q2,ε
 ```
 
 ## Funções
