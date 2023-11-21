@@ -1,0 +1,30 @@
+// Fita e Autômato
+digraph {
+	rankdir=LR
+	"Estado Inicial: q0" [shape=plaintext]
+	"Estados: q0,q1,q2" [shape=plaintext]
+	"Alfabeto de Entrada: a,b,c" [shape=plaintext]
+	"Alfabeto da Pilha: A,B,C" [shape=plaintext]
+	"Estados de Aceitação: q2" [shape=plaintext]
+	"0: Z" [shape=box]
+	0:" Z" -> 1:" q0"
+	"1: q0" [color=red shape=box]
+	1:" q0" -> 2:" b"
+	"2: b" [shape=box]
+	2:" b" -> 3:" b"
+	"3: b" [shape=box]
+	3:" b" -> 4:" a"
+	"4: a" [shape=box]
+	4:" a" -> 5:" b"
+	"5: b" [shape=box]
+	5:" b" -> 6:" a"
+	"6: a" [shape=box]
+	6:" a" -> 7:" b"
+	"7: b" [shape=box]
+	7:" b" -> 8:" a"
+	"8: a" [shape=box]
+	8:" a" -> 9:" b"
+	"9: b" [shape=box]
+	9:" b" -> 10:" Z"
+	"10: Z" [shape=box]
+}
