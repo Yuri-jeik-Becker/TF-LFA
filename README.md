@@ -1,5 +1,18 @@
 # TF-LFA
-## Trabalho Final de LFA primeira etapa
+
+- [Trabalho Final de LFA primeira etapa](#Trabalho-Final-de-LFA-primeira-etapa)
+- [Executar](#Executar)
+- [Utilização](#Utilização)
+- [Estado-inicial](#Estado-inicial:)
+- [Estados](#Estados:)
+- [Estados de Aceitação](#Estados-de-Aceitação:)
+- [Alfabeto de Entrada](#Alfabeto-de-Entrada:)
+- [Transições](#Transições:)
+- [Funções](#Funções)
+- [Entrada a ser Testada](#Entrada-a-ser-Testada:)
+
+
+## Trabalho-Final-de-LFA-primeira-etapa
 Esta primeira etapa do trabalho consiste em implementar um simulador de Autômatos com Pilha (Pushdown Automaton)  
 A linguagem escolhida foi Python e são utilizadas as bibliotecas Graphviz e Streamlit que podem ser instaladas pelo arquivo `requirements.txt`
 
@@ -13,7 +26,7 @@ streamlit run stack.py
 Com a interface aberta será utilizado `ε` como palavra ou transição vazia  
 Campos preenchidos pelo usuário:
 
-### Estado inicial:
+### Estado-inicial:
 Neste campo digitar o estado inicial
 Exemplo: `Q0`
 
@@ -21,15 +34,15 @@ Exemplo: `Q0`
 Neste campo digitar todos os estados separados por vírgulas sem espaços  
 Exemplo: `Q0,Q1,Q2`
 
-### Estados de Aceitação:
+### Estados-de-Aceitação:
 Neste campo digitar todos os estados de aceitação ou finais separados por vírgulas sem espaços  
 Exemplo: `Q2`
 
-### Alfabeto de Entrada:
+### Alfabeto-de-Entrada:
 Neste campo digitar todos os símbolos do alfabeto de entrada da fita separados por vírgulas sem espaços  
 Exemplo: `a,b,c`
 
-### Alfabeto da Pilha:
+### Alfabeto-da-Pilha:
 Neste campo digitar todos os símbilos do alfabeto da pilha separados por vírgulas sem espaços  
 Exemplo: `A,B,C`
 
@@ -45,6 +58,6 @@ Q1,b,A,Q2,ε
 Após preenchidos os campos o Autômato com Pilha pode ser gerado graficamente pressionando o botão: `Gerar Autômato`  
 Fitas de entrada poderão ser testadas pressionando o botão: `Testar Fita`  
 
-### Entrada a ser Testada:
+### Entrada-a-ser-Testada:
 Nesse campo digitar a fita de entrada apenas digitando os símbolos em sequência  
 Exemplo: `aabbacbb`
